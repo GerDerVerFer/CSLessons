@@ -1,9 +1,9 @@
 ﻿
-    public class Singleton
+public class Singleton
+{
+    public static void Run()
     {
-        public static void Run()
-        {
-            A a = new A();
-            B b = new B();
-        }
+        A a = new A();
+        B b = new B();
     }
+}

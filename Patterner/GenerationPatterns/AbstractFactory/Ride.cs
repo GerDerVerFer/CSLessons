@@ -2,8 +2,8 @@
 
 class Ride : IMove
 {
-	public void Move()
-	{
-		Console.WriteLine("*Brbrbbrb*");
-	}
+    public void Move()
+    {
+        Console.WriteLine("*Brbrbbrb*");
+    }
 }
