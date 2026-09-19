@@ -15,7 +15,7 @@
         return this;
     }
 
-    public Worker walls(string w) 
+    public Worker walls(string w)
     {
         currentWork.walls = w;
         return this;
@@ -25,7 +25,7 @@
         currentWork.roof = r;
         return this;
     }
-    public Worker interior (string i)
+    public Worker interior(string i)
     {
         currentWork.interior = i;
         return this;

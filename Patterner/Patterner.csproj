@@ -65,6 +65,7 @@
     <Compile Include="GenerationPatterns\Prototype\Task.cs" />
     <Compile Include="GenerationPatterns\Singleton\b.cs" />
     <Compile Include="GenerationPatterns\Singleton\a.cs" />
+    <Compile Include="GenerationPatterns\Singleton\ILogger.cs" />
     <Compile Include="GenerationPatterns\Singleton\Logger.cs" />
     <Compile Include="GenerationPatterns\Prototype\Prototype.cs" />
     <Compile Include="GenerationPatterns\Singleton\Singleton.cs" />
@@ -73,6 +74,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="SOLID\Solid.md" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="GenerationPatterns\AbstractFactory\Ride.cs" />
