@@ -1,7 +1,8 @@
 ﻿public class B
 {
+    public ILogger logger;
     public B() {
-        Logger logger = Logger.getInstance();
+        logger = Logger.getInstance();
 
         logger.Log("Initialized class B");
     }

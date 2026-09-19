@@ -1,6 +1,6 @@
 ﻿using System;
 
-public class Logger
+public class Logger : ILogger
 {
     public static Logger Instance = new Logger();
     private Logger() { }
