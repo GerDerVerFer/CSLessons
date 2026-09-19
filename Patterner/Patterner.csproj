@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AAF8BD28-34AA-4DB4-A092-7D26BA24A094}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Patterner</RootNamespace>
+    <AssemblyName>Patterner</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GenerationPatterns\AbstractFactory\AF.cs" />
+    <Compile Include="GenerationPatterns\AbstractFactory\Flamethrower.cs" />
+    <Compile Include="GenerationPatterns\AbstractFactory\Fly.cs" />
+    <Compile Include="GenerationPatterns\AbstractFactory\Hero.cs" />
+    <Compile Include="GenerationPatterns\AbstractFactory\HeroFactory.cs" />
+    <Compile Include="GenerationPatterns\AbstractFactory\Run.cs" />
+    <Compile Include="GenerationPatterns\AbstractFactory\Shoot.cs" />
+    <Compile Include="GenerationPatterns\AbstractFactory\IHit.cs" />
+    <Compile Include="GenerationPatterns\AbstractFactory\IMove.cs" />
+    <Compile Include="GenerationPatterns\AbstractFactory\Swing.cs" />
+    <Compile Include="GenerationPatterns\Builder\Builder.cs" />
+    <Compile Include="GenerationPatterns\Builder\Building.cs" />
+    <Compile Include="GenerationPatterns\Builder\Worker.cs" />
+    <Compile Include="GenerationPatterns\Factory\ComputerFactory.cs" />
+    <Compile Include="GenerationPatterns\Factory\Factory.cs" />
+    <Compile Include="GenerationPatterns\Factory\IComputer.cs" />
+    <Compile Include="GenerationPatterns\Factory\PC1.cs" />
+    <Compile Include="GenerationPatterns\Factory\PC2.cs" />
+    <Compile Include="GenerationPatterns\Prototype\ITask.cs" />
+    <Compile Include="GenerationPatterns\Prototype\Task.cs" />
+    <Compile Include="GenerationPatterns\Singleton\b.cs" />
+    <Compile Include="GenerationPatterns\Singleton\a.cs" />
+    <Compile Include="GenerationPatterns\Singleton\Logger.cs" />
+    <Compile Include="GenerationPatterns\Prototype\Prototype.cs" />
+    <Compile Include="GenerationPatterns\Singleton\Singleton.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GenerationPatterns\AbstractFactory\Ride.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
