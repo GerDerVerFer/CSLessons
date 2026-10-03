@@ -2,10 +2,14 @@
 {
     public static void Main(string[] args)
     {
+        // == GENERATOINS ==
         // Singleton.Run();
         // Prototype.Run();
         // Builder.Run(); 
         // Factory.Run();
-        AbstractFactory.Run();
+        // AbstractFactory.Run();
+
+        // == STRUCTURES ==
+        JLogger.Run();
     }
 }
