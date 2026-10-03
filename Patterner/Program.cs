@@ -10,6 +10,7 @@
         // AbstractFactory.Run();
 
         // == STRUCTURES ==
-        JLogger.Run();
+        // JLogger.Run();
+        Bridge.Run();
     }
 }
