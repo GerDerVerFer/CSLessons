@@ -11,6 +11,6 @@
 
         // == STRUCTURES ==
         // JLogger.Run();
-        Bridge.Run();
+        // Bridge.Run(); Не дописали, а нахер надо
     }
 }
