@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-class noteService
+public class noteService : INoteService
 {
     public Dictionary<int, List<string>> Notes = new Dictionary<int, List<string>>();
 

@@ -12,6 +12,7 @@
         // == STRUCTURES ==
         // JLogger.Run();
         // Bridge.Run(); Не дописали
-        Composite.Run();
+        // Composite.Run();
+        Decorator.Run();
     }
 }
