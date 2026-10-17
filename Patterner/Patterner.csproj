@@ -108,6 +108,9 @@
     <Compile Include="Structure\Bridge\Decanate.cs" />
     <Compile Include="Structure\Bridge\Student.cs" />
     <Compile Include="Structure\Bridge\Teacher.cs" />
+    <Compile Include="Structure\Composite\Composite.cs" />
+    <Compile Include="Structure\Composite\File.cs" />
+    <Compile Include="Structure\Composite\Folder.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
