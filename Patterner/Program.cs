@@ -13,6 +13,7 @@
         // JLogger.Run();
         // Bridge.Run(); Не дописали
         // Composite.Run();
-        Decorator.Run();
+        // Decorator.Run();
+        Proxy.Run();
     }
 }

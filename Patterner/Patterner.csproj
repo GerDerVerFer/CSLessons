@@ -118,6 +118,9 @@
     <Compile Include="Structure\Lightweight\Human.cs" />
     <Compile Include="Structure\Lightweight\LightWeight.cs" />
     <Compile Include="Structure\Lightweight\MigrationDepartment.cs" />
+    <Compile Include="Structure\Proxy\DBDService.cs" />
+    <Compile Include="Structure\Proxy\DBDServiceProxy.cs" />
+    <Compile Include="Structure\Proxy\Proxy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
