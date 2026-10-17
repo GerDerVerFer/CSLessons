@@ -14,6 +14,7 @@
         // Bridge.Run(); Не дописали
         // Composite.Run();
         // Decorator.Run();
-        Proxy.Run();
+        // Proxy.Run();
+        Facade.Run();
     }
 }
