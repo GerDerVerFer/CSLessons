@@ -74,6 +74,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behaviour\Commander\AbstractCommand.cs" />
+    <Compile Include="Behaviour\Commander\Bufffffer.cs" />
+    <Compile Include="Behaviour\Commander\Commander.cs" />
+    <Compile Include="Behaviour\Commander\CopyCommand.cs" />
+    <Compile Include="Behaviour\Commander\PasteCommand.cs" />
+    <Compile Include="Behaviour\Commander\Text.cs" />
+    <Compile Include="Behaviour\Responsibility\Car.cs" />
+    <Compile Include="Behaviour\Responsibility\CarController.cs" />
+    <Compile Include="Behaviour\Responsibility\CarDAO.cs" />
+    <Compile Include="Behaviour\Responsibility\CarService.cs" />
+    <Compile Include="Behaviour\Responsibility\Responsibility.cs" />
     <Compile Include="GenerationPatterns\AbstractFactory\AF.cs" />
     <Compile Include="GenerationPatterns\AbstractFactory\Flamethrower.cs" />
     <Compile Include="GenerationPatterns\AbstractFactory\Fly.cs" />

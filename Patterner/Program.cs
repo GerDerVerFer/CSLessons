@@ -18,6 +18,7 @@
         //Facade.Run();
 
         // == BEHAVIOURS == 
-        Responsibility.Run();
+        // Responsibility.Run();
+        Commander.Run();
     }
 }
