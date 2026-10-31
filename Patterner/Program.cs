@@ -15,6 +15,9 @@
         // Composite.Run();
         // Decorator.Run();
         // Proxy.Run();
-        Facade.Run();
+        //Facade.Run();
+
+        // == BEHAVIOURS == 
+        Responsibility.Run();
     }
 }
